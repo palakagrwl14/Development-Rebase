@@ -1,1 +1,187 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+    <style>
+    header{
+        background-color: aliceblue;
+        text-align:left;
+        padding:0%;
+        
+        }
+    h1{
+        color:burlywood;
+        text-shadow: 5px black;
+        float: inline-start;
+        margin-top: 5px;
+        margin-left: 20px;
+        
+    }
+    ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0%;
+        overflow: hidden;
+        background-color:aliceblue;
+    }
+    ul li{
+        float: right;
+    }
+    ul li a{
+        display: block;
+        color:burlywood;
+        text-align: center;
+        padding: 14px 16px 16px
+    }
+    ul li a:hover{
+        background-color:white;
+    }
+    #home .container{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;  
+        gap: 20px;
+    }
+    #home .text{
+        order: 1;
+        background-color: aliceblue;
+    
+    }
+    #home img{
+        order: 2;
+    }
+    #about .text1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background-color: aliceblue;
+        margin-left: 50px;
+    }
+    #about h4{
+        background-color: aliceblue;
+        margin-left: 50px;
+    }
+    #skills {
+        text-align: center;
+       
+    }
+    .skills-container{
+        display: flex;
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .skill{
+        background-color: aliceblue;
+        padding: 15px 20px;
+        border-radius: 10px;
 
+    }
+    #skills h5{
+        background-color: aliceblue;
+        margin-left: 50px;
+    }
+    h4, h5, h6{
+        font-size: 20px;
+    }
+    #projects h6{
+        background-color: aliceblue;
+        margin-left: 50px;
+    }
+    #projects{
+        text-align: center;
+    }
+    .projects-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        width: 60%;
+        margin: auto;
+        
+    }
+    .project{
+        background-color: aliceblue;
+        padding: 15px 25px;
+        border-radius: 10px;
+    }
+    
+    </style>
+    </head>
+    <body>
+       <header>
+        <h1>PA</h1>
+       <ul>
+        <li><a href="#training">Trainings</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#home">Home</a></li>
+       </ul>
+       </header>
+       <section id ="home">
+       <div class="container">
+       <img src="palak ag 1.jpeg" width="150" height="250">
+       <div class ="text">
+       <h3>Hi I'm</h3>
+       <h2>Palak Agrawal</h2>
+       <p>Software Developer<br>
+        Computer Science student skilled in Flutter,C++,Html,CSS with experience in building real-world apps using Firebase and Node.js. Passionate about developing practical, user-focused solutions.
+       </p>
+       </div>
+       </div>
+       </section>
+       <section id="about">
+           <h4>About Me</h4>
+           <div class="text1">
+           <p>
+            Computer Science student with hands-on experience in Flutter app development and backend integration using Firebase.Built real-world projects like a food delivery app and a rainwater harvesting system with Google Maps integration. Passionate about developing practical, user-focused applications and continuously learning new technologies.
+           </p>
+        <div class="info">
+            <div class="row">
+                <span class="label">Name:</span>
+                <span class="value">Palak Agrawal</span>
+            </div>
+            <div class="row">
+                <span class="label">Email:</span>
+                <span class="value">palakagrwl14@gmail.com</span>
+            </div>
+            <div class="row">
+                <span class="label">Location:</span>
+                <span class="value">Raipur, C.G.</span>
+            </div>
+        </div>
+        </div>
+       </section>
+       <section id="skills">
+        <h5>My Skills</h5>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="https://images.pexels.com/photos/11035472/pexels-photo-11035472.jpeg" width="30" height="30"><br>
+                <p>C++</p>
+            </div>
+            <div class="skill">
+                <img src="https://images.pexels.com/photos/11035468/pexels-photo-11035468.jpeg" width="30" height="30"><br>
+                <p>Flutter</p>
+            </div>
+            <div class="skill">
+                <img src="https://images.pexels.com/photos/11035360/pexels-photo-11035360.jpeg" width="30" height="30"><br>
+                <p>Java</p>
+            </div>
+            <div class="skill">
+                <img src="https://images.pexels.com/photos/1181440/pexels-photo-1181440.jpeg" width="30" height="30"><br>
+                <p>Firebase</p>
+            </div>
+        </div>
+       </section>
+       <section id="projects">
+        <h6>My Projects</h6>
+        <div class="projects-container">
+            <div class="project">Food-Delivery Application</div>
+            <div class="project">Rainwater Harvesting Application</div>
+            <div class="project">Portfolio Webpage</div>
+            <div class="project">Safe Navigation App</div>
+        </div>
+       </section>
+    </body>
+</html>
