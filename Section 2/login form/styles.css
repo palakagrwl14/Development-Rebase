@@ -1,1 +1,66 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    margin-bottom: 1px;
+    margin-top: 20px;
+}
+h1{
+    margin-top: auto;
+    margin-bottom: 1px;
+}
+h2{
+    margin-top: 1px;
+    font-size: small;
+    
+}
+.mail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 250px;
+    margin-top: 15px;
+}
+.mail-container input{
+    width: 400px;
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 40px;
+    box-sizing: border-box;
+}
+ .email{
+    background-image: url('image.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 16px;
+    
+}
+.password{
+    background-image: url('pass.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 16px;
+     
+}
+.button-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.button{
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(70, 70, 231);
+    color: antiquewhite;
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: rgb(55, 55, 134);
+}
+
+
+
 
