@@ -1,1 +1,74 @@
+.all{
+    width: 350px;                  /* ADD */
+    margin: 50px auto;             /* ADD (center) */
+    padding: 20px;                 /* ADD */
+    background-color: white;       /* ADD */
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.1);
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    
+}
+.text{
+    text-align: left;
+    width: 100%;
+}
+h1{
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+h2{
+    font-size:medium;
+    font-weight: 200;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 0;
+}
+.image{
+    display: flex;
+    justify-content: flex-start;       
+    align-items: center;           
+    gap: 5px; 
+    margin-top: 10px;
+    
+}
+.value{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 0;
 
+}
+.button{
+     display: flex;
+    justify-content: space-between; 
+    gap: 10px;                     
+    width: 100%
+}
+.bttn{
+    flex: 1;                       /* ADD */
+    padding: 10px; 
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.buttn{
+    flex: 1;                       /* ADD */
+    padding: 10px; 
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.bttn:hover{
+    background-color: rgb(20, 19, 19);
+}
+.buttn:hover{
+    background-color: rgb(63, 59, 59);
+}
